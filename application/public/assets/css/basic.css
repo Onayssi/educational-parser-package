@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 22, 2017, 10:00:39 AM
+    Author     : mouhamadounayssi
+*/
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%; 
+    min-height: 100%;
+}
+body {
+    width: 100%;
+    display: inline-block;
+    font-weight: 100;
+    font-family: 'Lato';
+    position: relative;
+}
+header, footer{
+    width:100%;
+    text-align: center;
+    display: block;
+    position: relative;    
+}
+header{   
+    height: auto;
+    background: #102132;
+}
+footer{
+    height: auto;
+    background: #d0d1d2;
+    bottom: 0;
+    position: fixed;
+}
+h1, h5{
+    display: inline-block;  
+    margin: 0 auto;
+    padding: 10px;
+}
+h1{
+    color:#d0d1d2;
+}
+h5{
+    color:#102132;
+}
+.container {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+.content {
+    text-align: center;
+    display: inline-block;
+}
+.upload-file{
+    margin-top: 30px;
+    clear: both;
+    display: block;
+}
+.border-radius{
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+}
+.cursor{
+    cursor: pointer !important;
+    cursor:hand !important;    
+}
+.upload-file-type{
+    border:1px dotted #405060;
+    padding: 10px;
+}
+.file-container {
+    overflow: hidden;
+    position: relative;
+    background: #5cb85c;
+    color:white;
+    padding: 7px;
+}
+.file-container input[type="file"] {
+    cursor: inherit;
+    display: block;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top:35px !important;
+    text-align: right;
+    top: 0;
+    height: 100%;
+}
+.upload-file input[type="submit"]{
+    margin-top: 25px;
+    color:white;
+    padding: 8px;
+    background: #5bc0de;
+    border:0;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.notification_message{
+   font-size: 15px;
+   padding: 15px;
+   text-align: left; 
+   margin-top: 18px;
+   font-weight: bold;
+}
+.notification_message.success{
+   background: #dff0d8;
+   color:#3c763d;      
+}
+.notification_message.error{
+    background: #f2dede;
+    color: #a94442;
+}
