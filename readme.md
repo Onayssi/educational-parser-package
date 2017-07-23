@@ -19,11 +19,15 @@ The package takes into consideration the issues below:
 - PDO extension for MySQL must be loaded
 - Online web server or local web server, e.g (XAMPP, WAMP, MAMP, LAMP)
 
-#Application Settings
+# Application Settings
+
 The bundle should be configured for the settings URL and database connection.
+
 It needs to be set from the ```.env``` configuration file by setting the parameters ```DB_DATABASE,DB_USERNAME,DB_PASSWORD``` for the database connection and the ```APP_URL``` for the base URL. 
+
 Also, it shoud be set from ```config/database``` and the ```config/app``` for the same objective.
-The ```mode_rewrite``` should be enable for the approach (if using Apache server) or editing the ``` default.conf``` (if sing Nginex)
+
+The ```mode_rewrite``` should be enable for the approach (if using Apache server) or editing the ``` default.conf``` (if uing Nginex)
 
 ### Database Migration:
 The SQL Database file is attached within the application. 
