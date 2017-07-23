@@ -4,12 +4,12 @@ A web based application package that create entries to the Database using Attrib
 The bundle allows to upload and parse an xml configuration file based on the requirements set from an Online Educational Tool Provider. Built using Laravel 5.4 Framework.
 
 # Process
-The package accepts an <xml> file format that can be upload into a web server. It saves the file in the storage repository (/resources/uploads) for the history. 
-It looks into the provided file to parse the nodes schema and extract the required fields (title,description,launch_url,icon_url). Then, it stores the values to the database in the <output> table.
+The package accepts an [xml] file format that can be upload into a web server. It saves the file in the storage repository (```/resources/uploads```) for the history. 
+It looks into the provided file to parse the nodes schema and extract the required fields (```title,description,launch_url,icon_url```). Then, it stores the values to the database in the <output> table.
 The package takes into consideration the issues below:
-- Require a file type: It requires an attachment with <xml> extension.
-- Accept only <xml> file format: No other file format is allowed. Only <xml> files format can be uploaded.
-- Restriction on the structure: The provided <xml> file should meet the requirements from the (Educational Tool Provider), meaning, it should included the expected nodes.
+- Require a file type: It requires an attachment with [xml] extension.
+- Accept only [xml] file format: No other file format is allowed. Only [xml] files format can be uploaded.
+- Restriction on the structure: The provided [xml] file should meet the requirements from the (Educational Tool Provider), meaning, it should included the expected nodes.
 - Avoid redundancy: No records with the same quadruplet values are accepted to avoid repetition of data.
 
 # Application Requirements
@@ -22,11 +22,8 @@ The package takes into consideration the issues below:
 # Application Settings
 
 The bundle should be configured for the settings URL and database connection.
-
 It needs to be set from the ```.env``` configuration file by setting the parameters ```DB_DATABASE,DB_USERNAME,DB_PASSWORD``` for the database connection and the ```APP_URL``` for the base URL. 
-
 Also, it shoud be set from ```config/database``` and the ```config/app``` for the same objective.
-
 The ```mode_rewrite``` should be enable for the approach (if using Apache server) or editing the ``` default.conf``` (if uing Nginex)
 
 ### Database Migration:
