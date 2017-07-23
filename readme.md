@@ -24,12 +24,12 @@ The package takes into consideration the issues below:
 The bundle should be configured for the settings URL and database connection.<br>
 It needs to be set from the ```.env``` configuration file by setting the parameters ```DB_DATABASE,DB_USERNAME,DB_PASSWORD``` for the database connection and the ```APP_URL``` for the base URL.<br>
 Also, it shoud be set from ```config/database``` and the ```config/app``` for the same objective.<br>
-The ```mode_rewrite``` should be enable for the approach (if using Apache server) or editing the ``` default.conf``` (if uing Nginex)
+The ```mode_rewrite``` should be enable for the approach (if using Apache server) or editing the ``` default.conf``` (if using Nginex)
 
 ### Database Migration:
 The SQL Database file is attached within the application.<br>
 It's possible to do migration from the artisan command line tool for Laraval to import the tables directly with all criteria.<br>
-Just create the proper database and set the configuration part, then run the command below (after accessing the relative path of the application):<br>
+Just create the proper database and set the configuration part, then run the command below (after accessing the relative path of the application):
 ```php artisan migrate```
 
 # Copyright
