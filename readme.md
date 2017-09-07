@@ -1,5 +1,5 @@
 # educational-parser-package
-A web based application package that create entries to the Database using Attributes or Elements from a provided XML File.
+A web based application package that create entries to the Database using Attributes or Elements from a provided XML File, using Laravel 5.4 Framework.
 # Description
 The bundle allows to upload and parse an xml configuration file based on the requirements set from an Online Educational Tool Provider. Built using Laravel 5.4 Framework.
 
