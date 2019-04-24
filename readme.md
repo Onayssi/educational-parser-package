@@ -34,4 +34,4 @@ Just create the proper database and set the configuration part, then run the com
 
 # Copyright
 Copyright (c) 2010 - 2017 Mouhamad Ounayssi.<br>
-Blog: https://www.mouhamadounayssi.wordpress.com.
+Blog: https://www.mouhamadonayssi.wordpress.com.
